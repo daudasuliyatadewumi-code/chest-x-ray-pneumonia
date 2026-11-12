@@ -1,0 +1,13 @@
+{
+    "patient_id": "PID-001",
+    "patient_name": "DAUD ADEWUMI",
+    "age": "30",
+    "gender": "Female",
+    "timestamp": "2026-10-31 07:40:19",
+    "primary_image_file": "xray_20261031_074019.jpeg",
+    "diagnosis": "PNEUMONIA",
+    "confidence_percentage": 99.51,
+    "raw_prediction_score": 0.9951152205467224,
+    "clinical_notes": "",
+    "directory_path": "C:\\Users\\DELL\\Documents\\Chest-X-ray-Pneumonia\\patient_records\\PID-001"
+}

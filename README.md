@@ -31,20 +31,30 @@ This project implements an automated pneumonia classification system using **Res
 
 ```
 Chest_X-ray/
-├── requirements.txt          # Dependencies
-├── README.md                 # Project documentation (this file)
-├── config.py                 # Configuration and hyperparameters
-├── download_dataset.py       # Dataset download script
-├── data_preprocessing.py     # Data loading and augmentation
-├── model.py                  # ResNet50 model architecture
-├── train.py                  # Training pipeline
-├── evaluate.py               # Model evaluation and visualization
-├── predict.py                # Single image prediction
-├── app.py                    # Streamlit web application
+├── requirements.txt             # Dependencies
+├── README.md                    # Quick-start documentation
+├── PROJECT_DOCUMENTATION.md     # Full comprehensive technical documentation
+├── config.py                    # Configuration and hyperparameters
+├── download_dataset.py          # Dataset download script
+├── patient_manager.py           # Patient folder organizer and file locator
+├── data_preprocessing.py        # Data loading, augmentation, and class weights
+├── model.py                     # ResNet50 model architecture
+├── train.py                     # Two-phase training pipeline
+├── evaluate.py                  # Model evaluation and metrics
+├── generate_report_figures.py    # Publication plots generator
+├── generate_system_flowchart.py # Comprehensive flowchart generator
+├── predict.py                   # Single image prediction CLI
+├── app.py                       # Streamlit web app (Diagnosis & Patient Locator)
+├── patient_records/             # Dedicated per-patient folder storage
+│   ├── PID-1001/                # Individual patient folder
+│   │   ├── latest_xray.jpeg     # Patient chest radiograph
+│   │   ├── patient_data.json    # Patient metadata and diagnosis
+│   │   └── diagnostic_report.txt# Printable clinical report
+│   └── ...
 └── outputs/
-    ├── model/                # Saved model weights
-    ├── plots/                # Evaluation plots
-    └── logs/                 # Training logs
+    ├── model/                   # Saved model weights
+    ├── plots/                   # Flowchart, confusion matrix, curves
+    └── logs/                    # Training and evaluation logs
 ```
 
 ## 🚀 Local Setup Instructions (For Defense & Testing)

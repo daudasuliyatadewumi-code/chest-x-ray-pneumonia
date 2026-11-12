@@ -1,0 +1,25 @@
+================================================================================
+FEDERAL POLYTECHNIC OFFA - DEPARTMENT OF ARTIFICIAL INTELLIGENCE
+AUTOMATED CHEST X-RAY PNEUMONIA CLASSIFICATION CLINICAL REPORT
+================================================================================
+PATIENT ID:           000000000009
+PATIENT NAME:         444444444445555
+AGE / GENDER:         45 yrs / Male
+DATE & TIME:          2026-11-09 04:44:42
+FOLDER LOCATION:      C:\Users\DELL\Documents\Chest-X-ray-Pneumonia\patient_records\000000000009
+--------------------------------------------------------------------------------
+AI DIAGNOSTIC EVALUATION (ResNet50 Deep CNN):
+--------------------------------------------------------------------------------
+DIAGNOSIS:            NORMAL
+CONFIDENCE SCORE:     58.83%
+SIGMOID PROBABILITY:  0.411685
+STATUS:               CLEAR / NORMAL
+
+CLINICAL NOTES:
+No clinical remarks recorded.
+
+--------------------------------------------------------------------------------
+DISCLAIMER: This automated diagnostic report is generated using deep learning 
+(ResNet50 Transfer Learning) as part of an HND AI research project. It is intended
+for clinical decision support and should be verified by a licensed radiologist.
+================================================================================

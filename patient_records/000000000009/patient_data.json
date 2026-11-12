@@ -1,0 +1,13 @@
+{
+    "patient_id": "000000000009",
+    "patient_name": "444444444445555",
+    "age": "45",
+    "gender": "Male",
+    "timestamp": "2026-11-09 04:44:42",
+    "primary_image_file": "xray_20261109_044442.jpeg",
+    "diagnosis": "NORMAL",
+    "confidence_percentage": 58.83,
+    "raw_prediction_score": 0.4116845726966858,
+    "clinical_notes": "",
+    "directory_path": "C:\\Users\\DELL\\Documents\\Chest-X-ray-Pneumonia\\patient_records\\000000000009"
+}

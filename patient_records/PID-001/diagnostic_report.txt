@@ -1,0 +1,25 @@
+================================================================================
+FEDERAL POLYTECHNIC OFFA - DEPARTMENT OF ARTIFICIAL INTELLIGENCE
+AUTOMATED CHEST X-RAY PNEUMONIA CLASSIFICATION CLINICAL REPORT
+================================================================================
+PATIENT ID:           PID-001
+PATIENT NAME:         DAUD ADEWUMI
+AGE / GENDER:         30 yrs / Female
+DATE & TIME:          2026-10-31 07:40:19
+FOLDER LOCATION:      C:\Users\DELL\Documents\Chest-X-ray-Pneumonia\patient_records\PID-001
+--------------------------------------------------------------------------------
+AI DIAGNOSTIC EVALUATION (ResNet50 Deep CNN):
+--------------------------------------------------------------------------------
+DIAGNOSIS:            PNEUMONIA
+CONFIDENCE SCORE:     99.51%
+SIGMOID PROBABILITY:  0.995115
+STATUS:               CRITICAL - REQUIRES CLINICAL ATTENTION
+
+CLINICAL NOTES:
+No clinical remarks recorded.
+
+--------------------------------------------------------------------------------
+DISCLAIMER: This automated diagnostic report is generated using deep learning 
+(ResNet50 Transfer Learning) as part of an HND AI research project. It is intended
+for clinical decision support and should be verified by a licensed radiologist.
+================================================================================

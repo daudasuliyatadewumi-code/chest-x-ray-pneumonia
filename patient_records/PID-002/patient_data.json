@@ -1,0 +1,13 @@
+{
+    "patient_id": "PID-002",
+    "patient_name": "ADEOLU JONH",
+    "age": "42",
+    "gender": "Male",
+    "timestamp": "2026-10-31 07:45:20",
+    "primary_image_file": "xray_20261031_074520.jpeg",
+    "diagnosis": "NORMAL",
+    "confidence_percentage": 87.01,
+    "raw_prediction_score": 0.12987568974494934,
+    "clinical_notes": "",
+    "directory_path": "C:\\Users\\DELL\\Documents\\Chest-X-ray-Pneumonia\\patient_records\\PID-002"
+}
